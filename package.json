@@ -1,0 +1,21 @@
+{
+  "name": "cloudinary-connection-string",
+  "version": "1.0.0",
+  "description": "Functions for dealing with a Cloudinary connection string",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xup3rr/cloudinary-connection-string.git"
+  },
+  "keywords": [
+    "cloudinary",
+    "connection",
+    "string",
+    "parse"
+  ],
+  "author": {
+    "name": "xup3rr",
+    "email": "xup3rr@gmail.com"
+  },
+  "license": "MIT"
+}
