@@ -1,5 +1,7 @@
 ### Functions for dealing with a Cloudinary connection string
 
+[![NPM](https://nodei.co/npm/cloudinary-connection-string.png?compact=true)](https://nodei.co/npm/cloudinary-connection-string/)
+
 Based on [pg-connection-string](https://www.npmjs.com/package/pg-connection-string) for faster productivity.
 
 Avoid 3 separate env vars.
