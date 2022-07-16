@@ -1,11 +1,10 @@
 // cloudinary://345861234570132:D2-34ddopiV9N3edr28dV34daef@dhabtaskf
 module.exports = {
   parse: (url) => {
-    const KEY = url.substring(url.indexOf('//') + 2, url.lastIndexOf(':'))
-    const SECRET = url.substring(url.lastIndexOf(':') + 1, url.indexOf('@'))
-    const NAME = url.substring(url.indexOf('@') + 1)
-    return { KEY, SECRET, NAME }
+    const api_key = url.substring(url.indexOf('//') + 2, url.lastIndexOf(':'))
+    const api_secret = url.substring(url.lastIndexOf(':') + 1, url.indexOf('@'))
+    const cloud_name = url.substring(url.indexOf('@') + 1)
+    return { cloud_name, api_key, api_secret }
   },
-  stringify: (KEY, SECRET, NAME) => `cloudinary://${KEY}:${SECRET}@${NAME}`
+  stringify: (cloud_name, api_key, api_secret) => `cloudinary://${api_key}:${api_secret}@${cloud_name}`
 }
-

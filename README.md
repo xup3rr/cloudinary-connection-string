@@ -19,11 +19,13 @@ console.log(config)
 //  SECRET: 'D2-34ddopiV9N3edr28dV34daef',
 //  NAME: 'dhabtaskf'
 //}
+
+// cloudinary.config(config)
 ```
 
 ```
 const stringify = require('cloudinary-connection-string').stringify
-const cloudinayString = stringify(KEY, SECRET, NAME)
+const cloudinaryString = stringify(KEY, SECRET, NAME)
 ```
 
 ### Test
