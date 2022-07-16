@@ -1,6 +1,6 @@
 {
   "name": "cloudinary-connection-string",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Functions for dealing with a Cloudinary connection string",
   "main": "index.js",
   "repository": {

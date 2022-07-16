@@ -14,11 +14,11 @@ const config = parse("cloudinary://345861234570132:D2-34ddopiV9N3edr28dV34daef@d
 
 console.log(config)
 
-//{
-//  KEY: '345861234570132',
-//  SECRET: 'D2-34ddopiV9N3edr28dV34daef',
-//  NAME: 'dhabtaskf'
-//}
+// {
+//   cloud_name: "dhabtaskf"
+//   api_key: "345861234570132"
+//   api_secret: "D2-34ddopiV9N3edr28dV34daef"
+// }
 
 // cloudinary.config(config)
 ```
