@@ -25,7 +25,7 @@ console.log(config)
 
 ```
 const stringify = require('cloudinary-connection-string').stringify
-const cloudinaryString = stringify(KEY, SECRET, NAME)
+const cloudinaryString = stringify(cloud_name, api_key, api_secret)
 ```
 
 ### Test
