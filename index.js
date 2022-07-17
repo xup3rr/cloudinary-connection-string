@@ -6,5 +6,5 @@ module.exports = {
     const cloud_name = url.substring(url.indexOf('@') + 1)
     return { cloud_name, api_key, api_secret }
   },
-  stringify: (cloud_name, api_key, api_secret) => `cloudinary://${api_key}:${api_secret}@${cloud_name}`
+  stringify: ({ cloud_name, api_key, api_secret }) => `cloudinary://${api_key}:${api_secret}@${cloud_name}`,
 }

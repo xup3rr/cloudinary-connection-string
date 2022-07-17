@@ -25,7 +25,7 @@ console.log(config)
 
 ```
 const stringify = require('cloudinary-connection-string').stringify
-const cloudinaryString = stringify(cloud_name, api_key, api_secret)
+const cloudinaryString = stringify({cloud_name, api_key, api_secret}) // pass an object
 ```
 
 ### Test
@@ -34,5 +34,5 @@ Uncomment test/index.js file and test it
 
 ```
 yarn add -D mocha chai
-mocha test
+yarn mocha test
 ```
